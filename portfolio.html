@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Aperture &amp; Light</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Aperture <span>&</span> Light</a>
+      <div class="nav__links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+    <a href="portfolio.html" class="active">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h4 class="reveal">Our Work</h4>
+      <h1 class="reveal">Portfolio</h1>
+      <p class="reveal">Browse our collection of photography across all disciplines.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Wedding</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="event">Event</button>
+        <button class="filter-btn" data-filter="realestate">Real Estate</button>
+        <button class="filter-btn" data-filter="product">Product</button>
+      </div>
+
+      <div class="portfolio-grid stagger">
+        <div class="portfolio-item" data-category="wedding">
+          <div class="portfolio-item__img bg-warm">Sunset Ceremony</div>
+          <div class="portfolio-item__overlay"><h3>Golden Hour Vows</h3><span>Wedding</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="portrait">
+          <div class="portfolio-item__img bg-cool">Studio Portrait</div>
+          <div class="portfolio-item__overlay"><h3>Executive Series</h3><span>Portrait</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="commercial">
+          <div class="portfolio-item__img bg-gold">Luxury Brand</div>
+          <div class="portfolio-item__overlay"><h3>Maison Éclat</h3><span>Commercial</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="realestate">
+          <div class="portfolio-item__img bg-slate">Penthouse Interior</div>
+          <div class="portfolio-item__overlay"><h3>SoHo Penthouse</h3><span>Real Estate</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="wedding">
+          <div class="portfolio-item__img bg-wine">First Dance</div>
+          <div class="portfolio-item__overlay"><h3>The Hendersons</h3><span>Wedding</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="product">
+          <div class="portfolio-item__img bg-earth">Watch Collection</div>
+          <div class="portfolio-item__overlay"><h3>Chronos Watches</h3><span>Product</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="event">
+          <div class="portfolio-item__img bg-deep">Gala Night</div>
+          <div class="portfolio-item__overlay"><h3>Met Annual Gala</h3><span>Event</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="portrait">
+          <div class="portfolio-item__img bg-forest">Outdoor Portrait</div>
+          <div class="portfolio-item__overlay"><h3>Natural Light Series</h3><span>Portrait</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="commercial">
+          <div class="portfolio-item__img bg-navy">Fashion Editorial</div>
+          <div class="portfolio-item__overlay"><h3>Vogue Feature</h3><span>Commercial</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="realestate">
+          <div class="portfolio-item__img bg-ash">Modern Kitchen</div>
+          <div class="portfolio-item__overlay"><h3>Brooklyn Brownstone</h3><span>Real Estate</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="product">
+          <div class="portfolio-item__img bg-copper">Skincare Line</div>
+          <div class="portfolio-item__overlay"><h3>Aura Beauty</h3><span>Product</span><div class="plus-icon">+</div></div>
+        </div>
+        <div class="portfolio-item" data-category="event">
+          <div class="portfolio-item__img bg-plum">Corporate Launch</div>
+          <div class="portfolio-item__overlay"><h3>Tech Summit 2025</h3><span>Event</span><div class="plus-icon">+</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band reveal">
+    <div class="container text-center">
+      <h2>Like What You See?</h2>
+      <p>Let's create something equally stunning for you.</p>
+      <a href="contact.html" class="btn btn--primary btn--large">Book Your Session <span class="btn-arrow">→</span></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><h3>Aperture <span>&</span> Light</h3><p>Crafting timeless imagery with elegance and artistry since 2013.</p></div>
+        <div><p class="footer__heading">Navigation</p><div class="footer__links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a></div></div>
+        <div><p class="footer__heading">Services</p><div class="footer__links"><a href="services.html">Weddings</a><a href="services.html">Portraits</a><a href="services.html">Commercial</a><a href="services.html">Events</a></div></div>
+        <div><p class="footer__heading">Contact</p><p class="footer__contact-item">hello@aperturelight.com</p><p class="footer__contact-item">+1 (555) 234-5678</p><p class="footer__contact-item">42 Gallery Lane<br>New York, NY 10012</p></div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Aperture &amp; Light. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

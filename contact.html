@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Aperture &amp; Light</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Aperture <span>&</span> Light</a>
+      <div class="nav__links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html" class="active">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html" class="active">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h4 class="reveal">Get In Touch</h4>
+      <h1 class="reveal">Contact Us</h1>
+      <p class="reveal">We'd love to hear about your project. Let's start a conversation.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form + Info -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <form class="contact-form reveal-left">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="event-type">Event Type</label>
+              <select id="event-type" name="event-type">
+                <option value="">Select a service...</option>
+                <option value="wedding">Wedding</option>
+                <option value="portrait">Portrait Session</option>
+                <option value="commercial">Commercial / Brand</option>
+                <option value="event">Event Coverage</option>
+                <option value="realestate">Real Estate</option>
+                <option value="product">Product Photography</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="form-group">
+            <label for="details">Project Details</label>
+            <textarea id="details" name="details" placeholder="Tell us about your vision, location, and any specific requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--large">Send Message <span class="btn-arrow">→</span></button>
+        </form>
+
+        <div class="contact-info reveal-right">
+          <div class="contact-info__item">
+            <h4>Studio Location</h4>
+            <p>42 Gallery Lane, 3rd Floor<br>SoHo, New York, NY 10012</p>
+          </div>
+          <div class="contact-info__item">
+            <h4>Email</h4>
+            <p><a href="mailto:hello@aperturelight.com">hello@aperturelight.com</a></p>
+          </div>
+          <div class="contact-info__item">
+            <h4>Phone</h4>
+            <p><a href="tel:+15552345678">+1 (555) 234-5678</a></p>
+          </div>
+          <div class="contact-info__item">
+            <h4>Studio Hours</h4>
+            <p>Monday – Friday: 9:00 AM – 6:00 PM<br>Saturday: 10:00 AM – 4:00 PM<br>Sunday: By appointment only</p>
+          </div>
+          <div class="contact-info__item">
+            <h4>Response Time</h4>
+            <p>We respond to all inquiries within 24 hours. For urgent requests, please call directly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Process -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <h4>Booking Process</h4>
+        <div class="line-accent"></div>
+        <h2>How to Book</h2>
+      </div>
+      <div class="booking-steps stagger">
+        <div class="booking-step">
+          <div class="booking-step__number">1</div>
+          <h3>Reach Out</h3>
+          <p>Fill out the form or give us a call. Share your vision and preferred dates.</p>
+        </div>
+        <div class="booking-step">
+          <div class="booking-step__number">2</div>
+          <h3>Consultation</h3>
+          <p>We'll schedule a free 30-minute call or in-studio meeting to discuss details.</p>
+        </div>
+        <div class="booking-step">
+          <div class="booking-step__number">3</div>
+          <h3>Proposal</h3>
+          <p>Receive a custom proposal with pricing, timeline, and creative direction.</p>
+        </div>
+        <div class="booking-step">
+          <div class="booking-step__number">4</div>
+          <h3>Confirm</h3>
+          <p>Sign the agreement, pay a 30% retainer, and your date is reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section>
+    <div class="map-placeholder">Studio Location — 42 Gallery Lane, SoHo, New York</div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><h3>Aperture <span>&</span> Light</h3><p>Crafting timeless imagery with elegance and artistry since 2013.</p></div>
+        <div><p class="footer__heading">Navigation</p><div class="footer__links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a></div></div>
+        <div><p class="footer__heading">Services</p><div class="footer__links"><a href="services.html">Weddings</a><a href="services.html">Portraits</a><a href="services.html">Commercial</a><a href="services.html">Events</a></div></div>
+        <div><p class="footer__heading">Contact</p><p class="footer__contact-item">hello@aperturelight.com</p><p class="footer__contact-item">+1 (555) 234-5678</p><p class="footer__contact-item">42 Gallery Lane<br>New York, NY 10012</p></div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Aperture &amp; Light. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
