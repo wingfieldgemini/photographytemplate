@@ -622,7 +622,7 @@ p {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: var(--black);
+  background: url(https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1920&h=1080&fit=crop) center/cover;
   overflow: hidden;
 }
 
